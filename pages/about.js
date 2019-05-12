@@ -17,9 +17,8 @@ class AboutPage extends Component {
             This is another page of the SSR example, you accessed it{" "}
             <strong>{this.props.isServer ? "server" : "client"} side</strong>.
           </p>
-          <p>
-            You can reload to see how the page change.
-          </p>
+          <p>You can reload to see how the page changes.</p>
+          <p>You can reload to see how the page.</p>
           <Link href="/">
             <a>Go to Home</a>
           </Link>
